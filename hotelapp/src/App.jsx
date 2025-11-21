@@ -2,7 +2,7 @@ import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Home from './pages/Home'
-import DupliHome from './Autocompletesearch/duplicatehpme'
+
 import HotelCardExlusive from './Common/HotelCardExlusive'
 import { Toaster } from "sonner"
 import { AutumnKochi, Datasforhotel, Springdata, WinterNewYearKerala } from './Common/Hoteldatas'
@@ -48,7 +48,7 @@ function App() {
           ]
         },
 
-        {path:"dupli",element:<DupliHome/>},
+        
         {path:"*",element:<>empty</>},
 
       ]
